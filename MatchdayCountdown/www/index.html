@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html ng-app="StarterApp">
+<head>
+
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>Cordova Material</title>
+    <!--<link href="css/Angular.css" rel="stylesheet" />-->
+    <!-- CordovaMaterial references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/Angular.js"></script>
+    <script src="scripts/angular-route.js"></script>
+
+    <script src="scripts/angIndex.js"></script>
+    <script src="scripts/AngularServices.js"></script>
+    <script src="scripts/jquery-2.1.4.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <!--<script src="scripts/app.js"></script>-->
+    <!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Animation -->
+    <link href="css/animate.css" rel="stylesheet" />
+
+    <!-- MyTemplate CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body ng-controller="AppCtrl" ng-cloak style="background-color:#E45F5F">
+    <header id="header-banner">
+        <nav class="navbar navbar-default navbar-fixed-top fadeIn" role="navigation">
+            <div class="container">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown-box-1">
+                        <i class="fa fa-ellipsis-v"></i>
+                    </button>
+                    <span class="navbar-brand" href="#">{{myPageCtx.HeaderTitle}}</span>
+                </div>
+
+                <!-- Collect the nav links and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="dropdown-box-1">
+
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#home">HOME</a></li>
+                        <li><a href="#aboutus">ABOUT</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div> <!-- /.container -->
+        </nav> <!-- /.nav -->
+    </header>
+
+    <div ng-view style="height:100%">
+
+        <!-- banner -->
+
+    </div>
+
+    <div class="text-center" style="position:fixed;bottom:0;width:100%;font-size:28px;background-color:#E45F5F;min-height:45px;border-top:1px;border-top-color:#E7E7E7;">
+        <div class="row" >
+            <div class="col-xs-12">
+                <div class="row">
+                   
+                    <div class="col-xs-12" style="border-bottom:1px solid;border-bottom-color:#944949;"></div>
+
+                   
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3">
+                <a href="#/home">
+                    <i class="fa fa-home" style="color:{{myPageCtx.ActiveFooterIcon =='home' ? '#FFF' : 'inherit'}}"></i>
+
+                </a>
+
+            </div>
+            <div class="col-xs-3">
+                <a href="#/results">
+                    <i class="fa fa-check-circle-o" style="color:{{myPageCtx.ActiveFooterIcon =='results' ? '#FFF' : 'inherit'}}"></i>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#/fixtures">
+                    <i class="fa fa-hourglass-start" style="color:{{myPageCtx.ActiveFooterIcon =='fixtures' ? '#FFF' : 'inherit'}}"></i>
+                </a>
+
+            </div>
+            <div class="col-xs-3">
+                <i class="fa fa-refresh"></i>
+            </div>
+
+        </div>
+
+    </div>
+    <!--<script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>-->
+
+
+</body>
+
+</html>

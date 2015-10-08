@@ -1,0 +1,51 @@
+﻿<section class="banner"  id="aboutus">
+    <div class="container-fluid" >
+        <div class="row" style="margin-top:50px;">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-10" style="border-bottom:1px solid;border-bottom-color:#E7E7E7;padding-bottom:10px;"></div>
+                    <div class="col-xs-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" ng-repeat="match in fixtures | filter:searchTxt | orderBy:'date':true " style="padding-top:10px;">
+            <div class="col-xs-9">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <span style="font-size:18px;color:#4D3B3B">
+                            <span>{{match.homeTeamName}}</span>
+                            <span>VS</span>
+                            <span>{{match.awayTeamName}}</span>
+                        </span>
+
+                    </div>
+                    <div class="col-xs-12">
+                        <span class="list-group-item-text">
+
+                            <strong>{{match.date | date}}</strong>
+                        </span>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-3">
+                <p class="pull-right">
+                    <span style="font-size:18px;color:#4D3B3B" ng-if="match.status =='FINISHED'">
+                        {{match.result.goalsHomeTeam}} - {{match.result.goalsAwayTeam}}
+                    </span>
+                </p>
+            </div>
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-10" style="border-bottom:1px solid;border-bottom-color:#E7E7E7;padding-bottom:10px;"></div>
+                    <div class="col-xs-1"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>

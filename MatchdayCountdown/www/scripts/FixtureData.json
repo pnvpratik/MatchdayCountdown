@@ -1,0 +1,655 @@
+﻿{
+  "_links": {
+    "_self": { "href": "http://api.football-data.org/alpha/teams/64/fixtures" },
+    "team": { "href": "http://api.football-data.org/alpha/teams/64" }
+  },
+  "count": 38,
+  "fixtures": [
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147078" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/70" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-08-09T15:00:00Z",
+      "status": "FINISHED",
+      "matchday": 1,
+      "homeTeamName": "Stoke City FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147116" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/1044" }
+      },
+      "date": "2015-08-17T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 2,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "AFC Bournemouth",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147053" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/57" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-08-24T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "homeTeamName": "Arsenal FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147046" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/563" }
+      },
+      "date": "2015-08-29T14:00:00Z",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "West Ham United FC",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 3
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147039" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/66" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-09-12T16:30:00Z",
+      "status": "FINISHED",
+      "matchday": 5,
+      "homeTeamName": "Manchester United FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147028" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/68" }
+      },
+      "date": "2015-09-20T15:00:00Z",
+      "status": "FINISHED",
+      "matchday": 6,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Norwich City FC",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147018" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/58" }
+      },
+      "date": "2015-09-26T14:00:00Z",
+      "status": "FINISHED",
+      "matchday": 7,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Aston Villa FC",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 2
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147012" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/62" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-10-04T12:30:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "Everton FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147005" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/73" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-10-17T11:45:00Z",
+      "status": "TIMED",
+      "matchday": 9,
+      "homeTeamName": "Tottenham Hotspur FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146993" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/340" }
+      },
+      "date": "2015-10-25T16:15:00Z",
+      "status": "TIMED",
+      "matchday": 10,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Southampton FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146981" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/61" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-10-31T12:45:00Z",
+      "status": "TIMED",
+      "matchday": 11,
+      "homeTeamName": "Chelsea FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146975" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/354" }
+      },
+      "date": "2015-11-08T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 12,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Crystal Palace FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146966" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/65" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-11-21T17:30:00Z",
+      "status": "TIMED",
+      "matchday": 13,
+      "homeTeamName": "Manchester City FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146957" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/72" }
+      },
+      "date": "2015-11-29T16:15:00Z",
+      "status": "TIMED",
+      "matchday": 14,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Swansea City FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146948" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/67" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-12-05T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 15,
+      "homeTeamName": "Newcastle United FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146939" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/74" }
+      },
+      "date": "2015-12-12T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 16,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "West Bromwich Albion FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146935" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/346" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-12-19T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 17,
+      "homeTeamName": "Watford FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146920" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/338" }
+      },
+      "date": "2015-12-26T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 18,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Leicester City FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146914" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/71" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2015-12-28T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 19,
+      "homeTeamName": "Sunderland AFC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146908" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/563" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-01-02T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 20,
+      "homeTeamName": "West Ham United FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146897" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/57" }
+      },
+      "date": "2016-01-12T20:00:00Z",
+      "status": "TIMED",
+      "matchday": 21,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Arsenal FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146884" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/66" }
+      },
+      "date": "2016-01-16T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 22,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Manchester United FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146878" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/68" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-01-23T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 23,
+      "homeTeamName": "Norwich City FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146868" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/338" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-02-02T19:45:00Z",
+      "status": "TIMED",
+      "matchday": 24,
+      "homeTeamName": "Leicester City FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146857" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/71" }
+      },
+      "date": "2016-02-06T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 25,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Sunderland AFC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146847" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/58" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-02-13T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 26,
+      "homeTeamName": "Aston Villa FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146838" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/62" }
+      },
+      "date": "2016-02-27T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 27,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Everton FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146829" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/65" }
+      },
+      "date": "2016-03-01T20:00:00Z",
+      "status": "TIMED",
+      "matchday": 28,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Manchester City FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146820" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/354" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-03-05T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 29,
+      "homeTeamName": "Crystal Palace FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146813" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/61" }
+      },
+      "date": "2016-03-12T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 30,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Chelsea FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146806" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/340" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-03-19T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 31,
+      "homeTeamName": "Southampton FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146795" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/73" }
+      },
+      "date": "2016-04-02T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 32,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Tottenham Hotspur FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146784" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/70" }
+      },
+      "date": "2016-04-09T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 33,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Stoke City FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/147084" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/1044" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-04-16T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 34,
+      "homeTeamName": "AFC Bournemouth",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146768" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/67" }
+      },
+      "date": "2016-04-23T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 35,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Newcastle United FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146762" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/72" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-04-30T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 36,
+      "homeTeamName": "Swansea City FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146750" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/64" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/346" }
+      },
+      "date": "2016-05-07T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 37,
+      "homeTeamName": "Liverpool FC",
+      "awayTeamName": "Watford FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/146746" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/398" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/74" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/64" }
+      },
+      "date": "2016-05-15T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "West Bromwich Albion FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    }
+  ]
+}

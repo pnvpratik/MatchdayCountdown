@@ -1,0 +1,47 @@
+﻿
+.take-all-space-you-can{
+    width:50%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;    
+    background-color:#E45F5F;
+}
+
+.banner{
+    height:100%;
+}
+
+.navbar-default{
+    border:0 !important;
+}
+.navbar-toggle{
+    border:0 !important;
+    margin-right:0 !important;
+}
+
+@font-face {
+font-family: Trebuchet MS;
+src: url("../fonts/FiraSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+font-family: Trebuchet MS;
+src: url("../fonts/FiraSans-Medium.otf") format("opentype");
+font-weight:bold;
+}
+h2{
+    margin-top:20px !important;
+}

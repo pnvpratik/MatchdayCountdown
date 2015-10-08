@@ -1,0 +1,49 @@
+﻿<section class="banner" id="home">
+    <!--<div class="row" style="margin-top:50px;padding-top:20px;">
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10"></div>
+                <div class="col-xs-1"></div>
+            </div>
+        </div>
+    </div>-->
+    <div style="margin-bottom:0;margin-top:50px;">
+        <div class="text-center">
+            <div>
+                <span style="font-size:42px;font-weight:bold">
+                    <span>{{featuredMatch.homeTeamName}}</span>
+
+                </span>
+                <p style="color:#4D3B3B">v/s</p>
+                <span style="font-size:42px;font-weight:bold">
+                    <span>{{featuredMatch.awayTeamName}}</span>
+                </span>
+                <div>
+                    <h5 ng-if="match.status =='FINISHED'">
+                        {{featuredMatch.result.goalsHomeTeam}} - {{featuredMatch.result.goalsAwayTeam}}
+                    </h5>
+                </div>
+                <div class="text-center">
+                    <p>
+                        <span class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">{{startsIn.Days}} Days</button>
+                            <button type="button" class="btn btn-default">{{startsIn.Hrs}} Hrs</button>
+                            <button type="button" class="btn btn-default">{{startsIn.Mins}} min</button>
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size:18px;color:#4D3B3B">
+                            On {{featuredMatch.date | date:"MMM dd 'at' h:mm a"}}
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
